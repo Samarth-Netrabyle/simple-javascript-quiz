@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz</title>
+<link href="style.css" rel="stylesheet">
+<script src="main.js"></script>
+
+</head>
+<body>
+
+<h1>Simple Javascript Quiz</h1>
+<form id="quiz" name="quiz">
+	
+	<p>What is the Capital city of England? </p>
+	
+    <input type="radio" id="mc" name="question1" value="london">London<br>
+    <input type="radio" id="mc" name="question1" value="kinshasa">Kinshasa<br>
+    <input type="radio" id="mc" name="question1" value="durban">Durban<br>
+
+	<p>What is the Capital city of South Africa? </p>
+
+    <input type="radio" id="mc" name="question2" value="Delhi">Delhi<br>
+    <input type="radio" id="mc" name="question2" value="Peru">Peru<br>
+    <input type="radio" id="mc" name="question2" value="pretoria">Pretoria<br>
+
+
+
+    <p>What is the Capital city of Netherlands?</p>
+
+    <input type="radio" id="mc" name="question3" value="brussels">Brussels<br>
+    <input type="radio" id="mc" name="question3" value="amsterdam">Amsterdam<br>
+    <input type="radio" id="mc" name="question3" value="luanda">Luanda<br>
+</br>
+    <input id="button" type="button" value="I'm finished!" onclick="check();">
+
+</form>
+
+<div id="after_submit">
+	<p id="message"></p>
+<p id="number_correct"></p>
+</div>
+
+<button onclick="myFunction()">Restart</button>
+
+
+</body>
+</html>
